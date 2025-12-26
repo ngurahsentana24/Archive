@@ -638,6 +638,142 @@
             color: var(--accent-color);
         }
 
+        /* Collaboration Section */
+        .collaboration-section {
+            background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+        }
+
+        .collaboration-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .collaboration-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 30px;
+            width: 100%;
+            margin-top: 30px;
+        }
+
+        .collaboration-item {
+            background: white;
+            border-radius: var(--border-radius);
+            padding: 25px;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+            border: 1px solid var(--medium-gray);
+            text-align: center;
+            cursor: pointer;
+            opacity: 0;
+            transform: translateY(20px);
+        }
+
+        .collaboration-item.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .collaboration-item:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--shadow-lg);
+            border-color: var(--accent-color);
+        }
+
+        .collaboration-icon {
+            display: block;
+            font-size: 2.5rem;
+            color: var(--accent-color);
+            margin-bottom: 15px;
+            transition: var(--transition);
+        }
+
+        .collaboration-item:hover .collaboration-icon {
+            transform: scale(1.2);
+        }
+
+        .collaboration-name {
+            font-weight: 600;
+            color: var(--secondary-color);
+            font-size: 0.95rem;
+        }
+
+        /* Photos Section */
+        .photos-section {
+            background-color: white;
+        }
+
+        .photos-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .photo-item {
+            position: relative;
+            border-radius: var(--border-radius);
+            overflow: hidden;
+            cursor: pointer;
+            height: 250px;
+            opacity: 0;
+            transform: translateY(20px);
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+        }
+
+        .photo-item.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .photo-item:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .photo-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: var(--transition);
+        }
+
+        .photo-item:hover img {
+            transform: scale(1.05);
+        }
+
+        .photo-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);
+            color: white;
+            padding: 15px;
+            transform: translateY(20px);
+            opacity: 0;
+            transition: var(--transition);
+        }
+
+        .photo-item:hover .photo-overlay {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .photo-title {
+            font-weight: 600;
+            font-size: 0.9rem;
+            margin-bottom: 5px;
+        }
+
+        .photo-date {
+            font-size: 0.8rem;
+            opacity: 0.9;
+        }
+
         /* Modal Popup */
         .modal-overlay {
             position: fixed;
@@ -1469,6 +1605,8 @@
                     <li><a href="#organizations" data-i18n="nav.organizations">Organizations</a></li>
                     <li><a href="#certificates" data-i18n="nav.certificates">Certificates</a></li>
                     <li><a href="#awards" data-i18n="nav.awards">Awards</a></li>
+                    <li><a href="#collaborations" data-i18n="nav.collaborations">Collaborations</a></li>
+                    <li><a href="#photos" data-i18n="nav.photos">Photos</a></li>
                     <li><a href="#competency" data-i18n="nav.competency">Competency</a></li>
                     <li><a href="#testimonials" data-i18n="nav.testimonials">Testimonials</a></li>
                 </ul>
@@ -1660,6 +1798,34 @@
         </div>
     </section>
 
+    <!-- Collaborations Section -->
+    <section class="collaboration-section" id="collaborations">
+        <div class="container">
+            <div class="section-title">
+                <h2 data-i18n="collaborations.title">Collaborations</h2>
+                <p data-i18n="collaborations.description">Organizations and institutions I've collaborated with</p>
+            </div>
+            <div class="collaboration-container">
+                <div class="collaboration-content" id="collaborationsContent">
+                    <!-- Items will be filled by JavaScript -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photos Section -->
+    <section class="photos-section" id="photos">
+        <div class="container">
+            <div class="section-title">
+                <h2 data-i18n="photos.title">Photos</h2>
+                <p data-i18n="photos.description">Moments from professional journey</p>
+            </div>
+            <div class="photos-grid" id="photosGrid">
+                <!-- Items will be filled by JavaScript -->
+            </div>
+        </div>
+    </section>
+
     <!-- Competency Section -->
     <section class="competency-section" id="competency">
         <div class="container">
@@ -1778,6 +1944,8 @@
                     <ul class="footer-links">
                         <li><a href="#organizations" data-i18n="nav.organizations">Organizations</a></li>
                         <li><a href="#awards" data-i18n="nav.awards">Awards</a></li>
+                        <li><a href="#collaborations" data-i18n="nav.collaborations">Collaborations</a></li>
+                        <li><a href="#photos" data-i18n="nav.photos">Photos</a></li>
                         <li><a href="#testimonials" data-i18n="nav.testimonials">Testimonials</a></li>
                     </ul>
                 </div>
@@ -1810,6 +1978,8 @@
                 "nav.organizations": "Organizations",
                 "nav.certificates": "Certificates",
                 "nav.awards": "Awards",
+                "nav.collaborations": "Collaborations",
+                "nav.photos": "Photos",
                 "nav.competency": "Competency",
                 "nav.testimonials": "Testimonials",
                 
@@ -1832,6 +2002,10 @@
                 "certificates.description": "Professional certifications",
                 "awards.title": "Awards",
                 "awards.description": "Achievements and recognitions",
+                "collaborations.title": "Collaborations",
+                "collaborations.description": "Organizations and institutions I've collaborated with",
+                "photos.title": "Photos",
+                "photos.description": "Moments from professional journey",
                 "competency.title": "Competency",
                 "competency.description": "Skills and expertise in Statistics, Data Science, and Computer Science",
                 "testimonials.title": "Testimonials",
@@ -1870,6 +2044,8 @@
                 "nav.organizations": "Organisasi",
                 "nav.certificates": "Sertifikat",
                 "nav.awards": "Penghargaan",
+                "nav.collaborations": "Kolaborasi",
+                "nav.photos": "Foto",
                 "nav.competency": "Kompetensi",
                 "nav.testimonials": "Testimoni",
                 
@@ -1892,6 +2068,10 @@
                 "certificates.description": "Sertifikasi profesional",
                 "awards.title": "Penghargaan",
                 "awards.description": "Pencapaian dan pengakuan",
+                "collaborations.title": "Kolaborasi",
+                "collaborations.description": "Organisasi dan institusi yang pernah saya kolaborasi",
+                "photos.title": "Foto",
+                "photos.description": "Momen dari perjalanan profesional",
                 "competency.title": "Kompetensi",
                 "competency.description": "Keterampilan dan keahlian dalam Statistika, Data Science, dan Computer Science",
                 "testimonials.title": "Testimoni",
@@ -2113,6 +2293,106 @@
                     details: "Delivered keynote speech on ethical considerations in healthcare AI to an audience of 500+ professionals."
                 }
             ],
+            collaborations: [
+                {
+                    id: 1,
+                    name: "Google",
+                    icon: "fab fa-google",
+                    link: "https://www.google.com"
+                },
+                {
+                    id: 2,
+                    name: "Microsoft",
+                    icon: "fab fa-microsoft",
+                    link: "https://www.microsoft.com"
+                },
+                {
+                    id: 3,
+                    name: "IBM",
+                    icon: "fab fa-ibm",
+                    link: "https://www.ibm.com"
+                },
+                {
+                    id: 4,
+                    name: "Amazon",
+                    icon: "fab fa-aws",
+                    link: "https://aws.amazon.com"
+                },
+                {
+                    id: 5,
+                    name: "GitHub",
+                    icon: "fab fa-github",
+                    link: "https://github.com"
+                },
+                {
+                    id: 6,
+                    name: "Python",
+                    icon: "fab fa-python",
+                    link: "https://www.python.org"
+                },
+                {
+                    id: 7,
+                    name: "TensorFlow",
+                    icon: "fas fa-brain",
+                    link: "https://www.tensorflow.org"
+                },
+                {
+                    id: 8,
+                    name: "ResearchGate",
+                    icon: "fab fa-researchgate",
+                    link: "https://www.researchgate.net"
+                }
+            ],
+            photos: [
+                {
+                    id: 1,
+                    url: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+                    alt: "Presenting at Data Science Conference",
+                    title: "Conference Presentation",
+                    date: "2023",
+                    description: "Presenting research findings at International Data Science Conference"
+                },
+                {
+                    id: 2,
+                    url: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+                    alt: "Team Collaboration",
+                    title: "Team Collaboration Session",
+                    date: "2023",
+                    description: "Collaborating with team members on machine learning project"
+                },
+                {
+                    id: 3,
+                    url: "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+                    alt: "Award Ceremony",
+                    title: "Receiving Best Project Award",
+                    date: "2022",
+                    description: "Receiving award for best data science project"
+                },
+                {
+                    id: 4,
+                    url: "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+                    alt: "Workshop Facilitation",
+                    title: "Leading Data Science Workshop",
+                    date: "2022",
+                    description: "Facilitating hands-on data science workshop for students"
+                },
+                {
+                    id: 5,
+                    url: "https://images.unsplash.com/photo-1556761175-b413ae4ab686?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+                    alt: "Project Development",
+                    title: "Project Development Session",
+                    date: "2023",
+                    description: "Working on data visualization project with team"
+                },
+                {
+                    id: 6,
+                    url: "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+                    alt: "Mentoring Session",
+                    title: "Mentoring Junior Developers",
+                    date: "2023",
+                    description: "Mentoring session with junior data science team members"
+                }
+            ],
             testimonials: [
                 {
                     id: 1,
@@ -2190,7 +2470,9 @@
                 certificates: { value: portfolioData.certificates.length, trend: 10 },
                 experience: { value: yearsExperience, trend: 0 },
                 awards: { value: portfolioData.awards.length, trend: 20 },
-                clients: { value: portfolioData.testimonials.length, trend: 30 }
+                clients: { value: portfolioData.testimonials.length, trend: 30 },
+                collaborations: { value: portfolioData.collaborations.length, trend: 20 },
+                photos: { value: portfolioData.photos.length, trend: 15 }
             };
             
             return trends;
@@ -2336,6 +2618,31 @@
             `;
         }
 
+        // Function to create collaboration item
+        function createCollaborationItem(collab) {
+            return `
+                <div class="collaboration-item" data-id="${collab.id}" data-type="collaboration">
+                    <a href="${collab.link}" target="_blank" class="collaboration-icon">
+                        <i class="${collab.icon}"></i>
+                    </a>
+                    <div class="collaboration-name">${collab.name}</div>
+                </div>
+            `;
+        }
+
+        // Function to create photo item
+        function createPhotoItem(photo) {
+            return `
+                <div class="photo-item" data-id="${photo.id}" data-type="photo">
+                    <img src="${photo.url}" alt="${photo.alt}">
+                    <div class="photo-overlay">
+                        <div class="photo-title">${photo.title}</div>
+                        <div class="photo-date">${photo.date}</div>
+                    </div>
+                </div>
+            `;
+        }
+
         // Create testimonial card
         function createTestimonialCard(testimonial) {
             const avatar = testimonial.avatar ? 
@@ -2397,6 +2704,8 @@
                 ${createStatCard('experience', 'Years Experience', 'fas fa-briefcase')}
                 ${createStatCard('awards', 'Awards', 'fas fa-trophy')}
                 ${createStatCard('clients', 'Happy Clients', 'fas fa-users')}
+                ${createStatCard('collaborations', 'Collaborations', 'fas fa-handshake')}
+                ${createStatCard('photos', 'Photos', 'fas fa-camera')}
             `;
             
             // Render projects (ongoing first)
@@ -2431,6 +2740,14 @@
             const sortedAwards = [...portfolioData.awards].sort((a, b) => new Date(b.date) - new Date(a.date));
             const awardsContent = document.getElementById('awardsContent');
             awardsContent.innerHTML = sortedAwards.map(createAwardCard).join('');
+            
+            // Render collaborations
+            const collaborationsContent = document.getElementById('collaborationsContent');
+            collaborationsContent.innerHTML = portfolioData.collaborations.map(createCollaborationItem).join('');
+            
+            // Render photos
+            const photosGrid = document.getElementById('photosGrid');
+            photosGrid.innerHTML = portfolioData.photos.map(createPhotoItem).join('');
             
             // Render testimonials
             updateTestimonial();
@@ -2645,6 +2962,30 @@
                     linkText = 'Learn More';
                     linkUrl = '#';
                     break;
+                    
+                case 'collaboration':
+                    content = `
+                        <div style="text-align: center; margin: 20px 0;">
+                            <i class="${item.icon}" style="font-size: 5rem; color: var(--accent-color);"></i>
+                        </div>
+                        <p style="text-align: center; font-size: 1.2rem;"><strong>${item.name}</strong></p>
+                        <p style="text-align: center;">Collaboration with ${item.name} on various data science and AI projects.</p>
+                        <p style="text-align: center;">Working together to advance data-driven solutions and innovations.</p>
+                    `;
+                    linkText = 'Visit Website';
+                    linkUrl = item.link;
+                    break;
+                    
+                case 'photo':
+                    content = `
+                        <img src="${item.url}" alt="${item.alt}" class="modal-image" style="height: 300px;">
+                        <h4>${item.title}</h4>
+                        <p><strong>Date:</strong> ${item.date}</p>
+                        <p><strong>Description:</strong> ${item.description}</p>
+                    `;
+                    linkText = 'View Original';
+                    linkUrl = item.url;
+                    break;
             }
             
             modalContent.innerHTML = content;
@@ -2828,7 +3169,7 @@
             });
             
             // Hover effects
-            const hoverElements = document.querySelectorAll('a, button, .project-card, .article-card, .certificate-card, .experience-card, .award-card, .organization-card');
+            const hoverElements = document.querySelectorAll('a, button, .project-card, .article-card, .certificate-card, .experience-card, .award-card, .organization-card, .collaboration-item, .photo-item');
             
             hoverElements.forEach(el => {
                 el.addEventListener('mouseenter', () => {
@@ -2883,7 +3224,7 @@
             });
             
             // Observe cards
-            document.querySelectorAll('.project-card, .article-card, .certificate-card, .experience-card, .award-card, .organization-card, .skill-category, .testimonial-card').forEach(el => {
+            document.querySelectorAll('.project-card, .article-card, .certificate-card, .experience-card, .award-card, .organization-card, .collaboration-item, .photo-item, .skill-category, .testimonial-card').forEach(el => {
                 observer.observe(el);
             });
         }
@@ -3078,6 +3419,22 @@
                     }
                     
                     if (item) openModal(item, type);
+                }
+                
+                // Collaboration items
+                if (e.target.closest('.collaboration-item')) {
+                    const collaboration = e.target.closest('.collaboration-item');
+                    const id = parseInt(collaboration.dataset.id);
+                    const item = portfolioData.collaborations.find(c => c.id === id);
+                    if (item) openModal(item, 'collaboration');
+                }
+                
+                // Photo items
+                if (e.target.closest('.photo-item')) {
+                    const photo = e.target.closest('.photo-item');
+                    const id = parseInt(photo.dataset.id);
+                    const item = portfolioData.photos.find(p => p.id === id);
+                    if (item) openModal(item, 'photo');
                 }
             });
             
