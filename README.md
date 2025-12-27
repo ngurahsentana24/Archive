@@ -2389,36 +2389,82 @@
             ],
             organizations: [
                 {
-                    id: 1,
-                    title: "Data Science Association",
-                    role: "Active Member",
-                    period: "2021 - Present",
-                    description: "Professional organization for data scientists and analysts.",
-                    activities: [
-                        "Organized monthly workshops for 100+ members",
-                        "Led community project improving local business analytics",
-                        "Presented at annual conference 2022",
-                        "Mentored 15 junior data scientists"
-                    ],
-                    images: [
-                        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80"
-                    ]
+                  "id": 1,
+                  "title": "HIMPRO PASCASARJANA STATISTIKA",
+                  "role": "Chairman",
+                  "period": "2025",
+                  "description": "Postgraduate Statistics Student Association.",
+                  "activities": [
+                    "Led academic, organizational, and community engagement programs",
+                    "Coordinated events and fostered collaboration among postgraduate students",
+                    "Enhanced the organization's contribution to scientific and professional development"
+                  ],
+                  "images": []
                 },
                 {
-                    id: 2,
-                    title: "AI Research Community",
-                    role: "Research Contributor",
-                    period: "2020 - Present",
-                    description: "Community of AI researchers and practitioners.",
-                    activities: [
-                        "Contributed to open-source AI projects",
-                        "Reviewed 50+ research papers",
-                        "Organized study groups on advanced ML topics",
-                        "Collaborated on international research projects"
-                    ],
-                    images: [
-                        "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80"
-                    ]
+                  "id": 2,
+                  "title": "Keluarga LPDP IPB 12.0",
+                  "role": "Head of the Social and Community Service Division",
+                  "period": "2025",
+                  "description": "Social and community service division.",
+                  "activities": [
+                    "Coordinated social initiatives and managed community engagement programs",
+                    "Led teams in delivering impactful projects",
+                    "Strengthened student contributions to society"
+                  ],
+                  "images": []
+                },
+                {
+                  "id": 3,
+                  "title": "DPM PM Udayana",
+                  "role": "Chairman",
+                  "period": "2022",
+                  "description": "Student Representative Council at Udayana University.",
+                  "activities": [
+                    "Led the legislative body and managed student aspirations",
+                    "Oversaw organizational governance",
+                    "Ensured strategic collaboration between students and university leadership"
+                  ],
+                  "images": []
+                },
+                {
+                  "id": 4,
+                  "title": "DPM PM Udayana",
+                  "role": "Commission III for Aspiration and Advocacy",
+                  "period": "2021",
+                  "description": "Student Representative Council at Udayana University.",
+                  "activities": [
+                    "Contributed to student representation and policy discussions",
+                    "Served as Chair of the Temu Rektor event",
+                    "Led coordination and execution of strategic forum between students and university leadership"
+                  ],
+                  "images": []
+                },
+                {
+                  "id": 5,
+                  "title": "UKM PRAMUKA RACANA UDAYANA MAHENDRADATTA",
+                  "role": "Vice Chairman",
+                  "period": "2021",
+                  "description": "Scout Student Organization.",
+                  "activities": [
+                    "Developed leadership and organizational management skills",
+                    "Chaired the major event TAKSAKA",
+                    "Oversaw planning, coordination, and successful execution of events"
+                  ],
+                  "images": []
+                },
+                {
+                  "id": 6,
+                  "title": "UDAYANA FOCUS",
+                  "role": "Vice Chairman",
+                  "period": "2020",
+                  "description": "Student organization in creative media.",
+                  "activities": [
+                    "Led activities and enhanced members' creative skills",
+                    "Managed visual storytelling projects",
+                    "Chaired the flagship event Ufonity, overseeing its full execution"
+                  ],
+                  "images": []
                 }
             ],
             certificates: [
