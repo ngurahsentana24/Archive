@@ -2604,7 +2604,7 @@
                     { name: "Clustering Algorithms", percentage: 85 },
                     { name: "Dashboard Development", percentage: 92 }
                 ],
-                programming: [  // Ganti "computerScience" dengan "programming"
+                computerScience: [ 
                     { name: "Python Programming", percentage: 90 },
                     { name: "R Programming", percentage: 90 },
                     { name: "SQL Database", percentage: 88 },
@@ -2836,7 +2836,7 @@
             const icons = {
                 statistics: "fas fa-chart-bar",
                 dataScience: "fas fa-brain",
-                programming: "fas fa-laptop-code" 
+                computerScience: "fas fa-laptop-code" 
             };
             
             return `
