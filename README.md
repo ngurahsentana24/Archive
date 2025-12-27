@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
@@ -6,6 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
     <style>
+        /* Semua kode CSS yang sama */
         :root {
             --primary-color: #ffffff;
             --secondary-color: #1a1a2e;
@@ -2106,7 +2108,7 @@
         // Current language
         let currentLang = 'en';
 
-        // Data for portfolio
+        // Data for portfolio - DIPERBAIKI: syntax errors fixed
         const portfolioData = {
             projects: [
                 {
@@ -2166,7 +2168,7 @@
                     link: "#",
                     status: "completed",
                     detailedDescription: "Comprehensive dashboard analyzing world university rankings from THE. Features include multi-year trend analysis, country comparisons, and correlation between ranking factors.",
-                    technologies: ["Streamlit", "Python", "Pandas", "SQL", "Data Visualization"], // DIPERBAIKI: tambah koma
+                    technologies: ["Streamlit", "Python", "Pandas", "SQL", "Data Visualization"],
                     date: "2025"
                 },
                 {
@@ -2178,7 +2180,7 @@
                     link: "#",
                     status: "completed",
                     detailedDescription: "Full-stack tourism platform featuring interactive maps, destination recommendations, visitor analytics, and booking system. Includes mobile application for tourists and web dashboard for administrators.",
-                    technologies: ["R Shiny", "SQL", "Data Visualization"], // DIPERBAIKI: ganti dengan technologies yang sesuai
+                    technologies: ["R Shiny", "SQL", "JavaScript", "Leaflet", "Express.js"],
                     date: "2025"
                 },
                 {
@@ -2190,7 +2192,7 @@
                     link: "#",
                     status: "ongoing",
                     detailedDescription: "Smart waste management system with real-time monitoring of trash levels, collection routes optimization, and recycling rate tracking. Integrates IoT sensor data with predictive analytics.",
-                    technologies: ["R Shiny", "SQL", "Data Visualization"], // DIPERBAIKI: ganti dengan technologies yang sesuai
+                    technologies: ["R Shiny", "Python", "IoT Sensors", "Predictive Analytics", "PostgreSQL"],
                     date: "2025"
                 },
                 {
@@ -2202,7 +2204,7 @@
                     link: "#",
                     status: "completed",
                     detailedDescription: "Enterprise resource planning system for managing nutrition supply chain from procurement to distribution. Features include inventory management, demand forecasting, and distribution tracking.",
-                    technologies: ["R", "Survey Analysis", "Data Cleaning", "Data Visualization"], // DIPERBAIKI: ganti dengan technologies yang sesuai
+                    technologies: ["R", "Python", "SQL", "Supply Chain Analytics", "ERP Systems"],
                     date: "2025"
                 },
                 {
@@ -2214,7 +2216,7 @@
                     link: "#",
                     status: "completed",
                     detailedDescription: "Presented research paper on advanced data mining techniques at ICODMI International Conference. Paper focused on scalable machine learning algorithms for large-scale datasets.",
-                    technologies: ["Academic Writing", "Time Management", "Collaboration"], // DIPERBAIKI: tambah koma
+                    technologies: ["Academic Writing", "Research Presentation", "Data Mining", "Machine Learning"],
                     date: "2025"
                 },
                 {
@@ -2288,7 +2290,7 @@
                     period: "2023 – Present",
                     description: "Applying statistical methods, data science techniques, and machine learning approaches to generate insights and contribute to knowledge development. Conducting data-driven experiments and analyzing complex datasets to address real-world problems.",
                     achievements: [
-                        "Published research papers in national journal about statictical and machine learning",
+                        "Published research papers in national journal about statistical and machine learning",
                         "Developed predictive models for agricultural and financial applications with high accuracy rates",
                         "Conducted comprehensive risk analysis comparing VaR and CVaR methodologies across portfolio types",
                         "Implemented ANN models for image-based shelf life prediction in agricultural products"
@@ -2931,6 +2933,54 @@
                 ${createSkillCategory('dataScience', portfolioData.skills.dataScience)}
                 ${createSkillCategory('computerScience', portfolioData.skills.computerScience)}
             `;
+            
+            // Add event listeners to all cards
+            setTimeout(() => {
+                addCardEventListeners();
+            }, 100);
+        }
+
+        // Add event listeners to cards
+        function addCardEventListeners() {
+            // View more links
+            document.querySelectorAll('.view-more').forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const card = this.closest('[data-type]');
+                    const id = parseInt(card.dataset.id);
+                    const type = card.dataset.type;
+                    
+                    let item;
+                    switch(type) {
+                        case 'project': item = portfolioData.projects.find(p => p.id === id); break;
+                        case 'article': item = portfolioData.articles.find(a => a.id === id); break;
+                        case 'experience': item = portfolioData.experiences.find(e => e.id === id); break;
+                        case 'organization': item = portfolioData.organizations.find(o => o.id === id); break;
+                        case 'certificate': item = portfolioData.certificates.find(c => c.id === id); break;
+                        case 'award': item = portfolioData.awards.find(a => a.id === id); break;
+                    }
+                    
+                    if (item) openModal(item, type);
+                });
+            });
+            
+            // Collaboration items
+            document.querySelectorAll('.collaboration-item').forEach(item => {
+                item.addEventListener('click', function() {
+                    const id = parseInt(this.dataset.id);
+                    const collabItem = portfolioData.collaborations.find(c => c.id === id);
+                    if (collabItem) openModal(collabItem, 'collaboration');
+                });
+            });
+            
+            // Photo items
+            document.querySelectorAll('.photo-item').forEach(item => {
+                item.addEventListener('click', function() {
+                    const id = parseInt(this.dataset.id);
+                    const photoItem = portfolioData.photos.find(p => p.id === id);
+                    if (photoItem) openModal(photoItem, 'photo');
+                });
+            });
         }
 
         // Initialize slider functionality
@@ -3563,45 +3613,6 @@
                     currentTestimonial = parseInt(this.dataset.index);
                     updateTestimonial();
                 });
-            });
-            
-            // Card click events
-            document.addEventListener('click', function(e) {
-                // View more links
-                if (e.target.closest('.view-more')) {
-                    e.preventDefault();
-                    const card = e.target.closest('[data-type]');
-                    const id = parseInt(card.dataset.id);
-                    const type = card.dataset.type;
-                    
-                    let item;
-                    switch(type) {
-                        case 'project': item = portfolioData.projects.find(p => p.id === id); break;
-                        case 'article': item = portfolioData.articles.find(a => a.id === id); break;
-                        case 'experience': item = portfolioData.experiences.find(e => e.id === id); break;
-                        case 'organization': item = portfolioData.organizations.find(o => o.id === id); break;
-                        case 'certificate': item = portfolioData.certificates.find(c => c.id === id); break;
-                        case 'award': item = portfolioData.awards.find(a => a.id === id); break;
-                    }
-                    
-                    if (item) openModal(item, type);
-                }
-                
-                // Collaboration items
-                if (e.target.closest('.collaboration-item')) {
-                    const collaboration = e.target.closest('.collaboration-item');
-                    const id = parseInt(collaboration.dataset.id);
-                    const item = portfolioData.collaborations.find(c => c.id === id);
-                    if (item) openModal(item, 'collaboration');
-                }
-                
-                // Photo items
-                if (e.target.closest('.photo-item')) {
-                    const photo = e.target.closest('.photo-item');
-                    const id = parseInt(photo.dataset.id);
-                    const item = portfolioData.photos.find(p => p.id === id);
-                    if (item) openModal(item, 'photo');
-                }
             });
             
             // Modal close
