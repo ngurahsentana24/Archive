@@ -1,4 +1,3 @@
-<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/795689f3-2cf5-4152-9b9d-2ee112e98dbd" /><img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/1c81d47e-2a08-4e88-9cf0-5d3f5d91ac9d" /><img width="850" height="560" alt="image" src="https://github.com/user-attachments/assets/843b1cce-6232-494a-9da2-186f8e24f5af" /><img width="850" height="560" alt="image" src="https://github.com/user-attachments/assets/e750d633-0e12-45cc-89a8-f3b396f0bdc8" /><!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
