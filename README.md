@@ -2253,7 +2253,7 @@
                     technologies: ["R", "Statistical Analysis", "Engineering Mathematics", "Hypothesis Testing", "Regression"],
                     date: "2025"
                 }
-            ]
+            ],
             articles: [
                 {
                     id: 1,
@@ -2283,35 +2283,105 @@
             experiences: [
                 {
                     id: 1,
-                    title: "Lead Data Scientist",
-                    company: "TechCorp",
-                    period: "2022 - Present",
-                    description: "Leading data science team for predictive model development and AI solutions.",
+                    title: "Researcher",
+                    company: "Freelance & Academic Projects",
+                    period: "2023 – Present",
+                    description: "Applying statistical methods, data science techniques, and machine learning approaches to generate insights and contribute to knowledge development. Conducting data-driven experiments and analyzing complex datasets to address real-world problems.",
                     achievements: [
-                        "Led development of machine learning pipeline reducing processing time by 60%",
-                        "Implemented automated model monitoring system improving accuracy by 25%",
-                        "Mentored team of 5 junior data scientists",
-                        "Reduced infrastructure costs by 40% through optimization"
+                        "Published research papers in national journal about statictical and machine learning",
+                        "Developed predictive models for agricultural and financial applications with high accuracy rates",
+                        "Conducted comprehensive risk analysis comparing VaR and CVaR methodologies across portfolio types",
+                        "Implemented ANN models for image-based shelf life prediction in agricultural products"
                     ],
                     images: [
-                        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80",
-                        "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80"
+                        "https://images.unsplash.com/photo-1554475900-0a0350bad5c8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80",
+                        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80"
                     ]
                 },
                 {
                     id: 2,
-                    title: "Research Assistant",
-                    company: "University AI Lab",
-                    period: "2020 - 2022",
-                    description: "Research assistant focusing on computer vision and deep learning.",
+                    title: "Freelance Data Scientist",
+                    company: "Freelance Projects",
+                    period: "2023 – Present",
+                    description: "Providing end-to-end solutions in data collection, cleansing, analysis, and visualization to support diverse business needs. Building predictive models, analyzing performance metrics, developing dashboards, and delivering actionable insights across various industries.",
                     achievements: [
-                        "Published 3 papers in top-tier journals",
-                        "Developed novel object detection algorithm with 95% accuracy",
-                        "Collaborated with international research teams",
-                        "Presented findings at 5 international conferences"
+                        "Delivered data-driven solutions for clients across e-commerce, healthcare, and tourism sectors",
+                        "Built interactive dashboards that improved decision-making efficiency",
+                        "Developed predictive models for sales forecasting",
+                        "Created comprehensive analytics for supply chain and waste management systems"
                     ],
                     images: [
-                        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80"
+                        "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80",
+                        "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80"
+                    ]
+                },
+                {
+                    id: 3,
+                    title: "Data Analyst Lead",
+                    company: "Lumbung Group",
+                    period: "Apr 2024 – 2025",
+                    description: "Overseeing the end-to-end process of transforming raw data into actionable business insights. Analyzing sales performance, conducting product and shop analysis, and leading comprehensive business evaluations to identify growth opportunities and optimize company strategies.",
+                    achievements: [
+                        "Led analyst team in delivering insights that contributed to 30% sales growth in target segments",
+                        "Developed and implemented data analysis frameworks reducing report generation time by 50%",
+                        "Created predictive models for optimization",
+                        "Mentored and trained 5 analysts in SQL and data visualization techniques",
+                        "Designed reporting systems that saved 15+ hours weekly in manual work"
+                    ],
+                    images: [
+                        "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80",
+                        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80"
+                    ]
+                },
+                {
+                    id: 4,
+                    title: "Data Analyst",
+                    company: "Lumbung Group",
+                    period: "Jan 2023 – Mar 2024",
+                    description: "Analyzing sales data and performance trends, conducting in-depth product and shop analysis, and carrying out comprehensive business analysis to identify growth opportunities and improve operational efficiency.",
+                    achievements: [
+                        "Identified key market trends that led to development of 3 new successful product lines",
+                        "Optimized pricing strategies resulting in 8% increase in profit margins",
+                        "Created interactive dashboards that improved cross-departmental data accessibility",
+                        "Developed customer segmentation models that increased campaign",
+                        "Streamlined data collection processes reducing data processing time"
+                    ],
+                    images: [
+                        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80",
+                        "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80"
+                    ]
+                },
+                {
+                    id: 5,
+                    title: "Teaching Assistant - Multiple Courses",
+                    company: "University Academic Department",
+                    period: "2025",
+                    description: "Assisted in teaching undergraduate courses in Data Science, Relational Data Management, and Engineering Statistics. Conducted lab sessions, developed course materials, and provided individual tutoring to students.",
+                    achievements: [
+                        "Improved average student performance",
+                        "Developed practical case studies that enhanced student engagement and learning outcomes",
+                        "Created comprehensive grading rubrics that improved assessment consistency",
+                        "Mentored student groups on 10+ capstone projects"
+                    ],
+                    images: [
+                        "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80",
+                        "https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80"
+                    ]
+                },
+                {
+                    id: 6,
+                    title: "Data Analyst Intern",
+                    company: "Ruang Guru",
+                    period: "Feb 2022 – Jul 2022",
+                    description: "Gained solid knowledge in SQL, data analysis, and data visualization by working on various projects and case studies. Translated raw data into meaningful insights and actionable recommendations for educational technology applications.",
+                    achievements: [
+                        "Developed user engagement analysis dashboard that identified key drop-off points",
+                        "Created learning effectiveness metrics that informed curriculum improvements",
+                        "Presented data-driven recommendations"
+                    ],
+                    images: [
+                        "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80",
+                        "https://images.unsplash.com/photo-1577896851231-70ef18881754?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80"
                     ]
                 }
             ],
