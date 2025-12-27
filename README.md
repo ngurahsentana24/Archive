@@ -1,4 +1,4 @@
-<html lang="id">
+<img width="1770" height="1180" alt="image" src="https://github.com/user-attachments/assets/91212ef3-f714-452d-9aaf-887af778f3b7" /><html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -2302,7 +2302,7 @@
                     "id": 1,
                     "title": "Integration of RFM, K-Means, and XGBoost for Customer Retention Optimization in Online Retail",
                     "description": "Integrative research applying RFM analysis, K-Means clustering, and XGBoost for customer churn prediction and segmentation in online retail.",
-                    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80",
+                    "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d",
                     "journal": "Konstelasi: Scientific Journal of Duta Wacana Christian University Students",
                     "date": "June 2025",
                     "doi": "https://doi.org/10.24002/konstelasi.v5i1.11409",
@@ -2311,10 +2311,10 @@
                     "detailedDescription": "Comprehensive research integrating three analytical approaches for customer retention optimization. The RFM method is used for behavioral profiling, K-Means for cluster segmentation, and XGBoost for predictive churn modeling with very high accuracy. The case study is applied to an Online Retail dataset, with implementation results demonstrating the effectiveness of personalized retention strategies based on cluster segmentation."
                 },
                 {
-                    "id": 3,
+                    "id": 2,
                     "title": "Evaluation of Fast Food Promotion Effectiveness Using a Hybrid Approach of Robust Non-Parametric Methods and Monte Carlo Simulation Based on Market Size Segmentation",
                     "description": "A hybrid approach combining non-parametric tests, Random Forest, and Monte Carlo simulation to evaluate and optimize fast food promotional strategies across different market segments.",
-                    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80",
+                    "image": "https://images.unsplash.com/photo-1551434678-e076c223a692",
                     "journal": "Jurnal Akuntansi, Ekonomi dan Manajemen Bisnis",
                     "date": "July 2025",
                     "doi": "https://doi.org/10.30871/jaemb.v13i1.9313",
@@ -2326,7 +2326,7 @@
                     "id": 3,
                     "title": "Detection of Adulteration in Coconut Milk Using Cuckoo Search-Optimized XGBoost on High-Dimensional FTIR Spectral Data",
                     "description": "A novel method combining FTIR spectroscopy and machine learning for rapid, non-destructive detection of coconut milk adulteration.",
-                    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80",
+                    "image": "https://images.unsplash.com/photo-1588160859814-ad680f0c7ac9?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                     "journal": "Jurnal Ilmiah Pendidikan Indonesia",
                     "date": "July 2025",
                     "doi": "https://doi.org/10.29100/jipi.v10i3.8376",
@@ -2338,7 +2338,7 @@
                     "id": 4,
                     "title": "Performance Comparison of Random Forest and XGBoost Optimized with Cuckoo Search Algorithm for Coconut Milk Adulteration Detection Using FTIR Spectroscopy",
                     "description": "Comparative study of machine learning models optimized with metaheuristic algorithms for detecting adulteration in coconut milk using spectroscopy data.",
-                    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80",
+                    "image": "https://images.unsplash.com/photo-1719167625037-379e36a1e89f?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                     "journal": "Journal of Mathematics and Computer Science",
                     "date": "October 2025",
                     "doi": "https://doi.org/10.35580/jmathcos.v8i2.7817",
@@ -2350,7 +2350,7 @@
                     "id": 5,
                     "title": "Evaluating FastText and Glove Embeddings for Sentiment Analysis of AI-Generated Ghibli-Style Images",
                     "description": "Comparative analysis of word embedding techniques for sentiment classification of public reactions to AI-generated Ghibli-style artwork.",
-                    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80",
+                    "image": "https://images.unsplash.com/photo-1720636440389-2429e032e39d?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                     "journal": "Journal of Artificial Intelligence and Computing",
                     "date": "October 2025",
                     "doi": "https://doi.org/10.30871/jaic.v9i5.10600",
@@ -2362,7 +2362,7 @@
                     "id": 6,
                     "title": "Palm Oil Adulteration Detection Using Model Averaging of Machine Learning Classifiers on Simulated Chemical Data",
                     "description": "A machine learning framework using model averaging of KNN, SVM, and Random Forest to detect palm oil adulteration from synthetic FTIR spectral data.",
-                    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80",
+                    "image": "https://images.unsplash.com/photo-1639805855968-22081aef8d1f?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                     "journal": "International Journal of Oil Palm",
                     "date": "October 2025",
                     "doi": "https://doi.org/10.5281/zenodo.139",
@@ -2374,7 +2374,7 @@
                     "id": 7,
                     "title": "Classification of Cardiovascular and Chronic Respiratory Diseases Utilizing Ensemble Models with Data Exploration Techniques",
                     "description": "Evaluation of data preprocessing and ensemble learning methods for classifying non-communicable diseases using BPJS health insurance claims data.",
-                    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80",
+                    "image": "https://plus.unsplash.com/premium_photo-1722728217865-9713e88ce953?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                     "journal": "Jurnal Ilmiah Pendidikan Indonesia",
                     "date": "2025",
                     "doi": "https://doi.org/10.29100/jipi.v10i4.9311",
@@ -2422,7 +2422,7 @@
                     "id": 11,
                     "title": "Multi-Explainable Machine Learning Approach for Food Security Index Classification in Indonesia",
                     "description": "On Progress",
-                    "image": "ttps://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80",
+                    "image": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80",
                     "journal": "",
                     "date": "",
                     "doi": "",
@@ -2447,7 +2447,7 @@
                     "title": "Evaluation of Tree-Based Models for Predicting Social Assistance Recipient Status Based on National Socio-Economic Survey (SUSENAS) 2024",
                     "description": "On Progress",
                     "image": "",
-                    "journal": "",
+                    "journal": "https://images.unsplash.com/photo-1567007045934-f916c1846bcb?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                     "date": "",
                     "doi": "",
                     "abstract": "",
@@ -2779,15 +2779,15 @@
                 },
                 {
                     id: 2,
-                    name: "Microsoft",
-                    icon: "fab fa-microsoft",
-                    link: "https://www.microsoft.com"
+                    name: "LinkedIn",
+                    icon: "fab fa-linkedin",
+                    link: "https://www.linkedin.com/in/igustingurahsentanaputra/"
                 },
                 {
                     id: 3,
                     name: "GitHub",
                     icon: "fab fa-github",
-                    link: "https://github.com"
+                    link: "https://github.com/ngurahsentana24"
                 },
                 {
                     id: 4,
@@ -2811,25 +2811,25 @@
                     id: 7,
                     name: "ResearchGate",
                     icon: "fab fa-researchgate",
-                    link: "https://www.researchgate.net"
+                    link: "https://www.researchgate.net/profile/I-Gusti-Ngurah-Sentana-Putra?ev=hdr_xprf"
                 },
                 {
                     id: 8,
                     name: "ORCID",
                     icon: "fas fa-id-card",
-                    link: "https://orcid.org"
+                    link: "https://orcid.org/0009-0001-5357-7554"
                 },
                 {
                     id: 9,
                     name: "Google Scholar",
                     icon: "fas fa-graduation-cap",
-                    link: "https://scholar.google.com"
+                    link: "https://scholar.google.com/citations?user=ozuL4jsAAAAJ&hl=en"
                 },
                 {
                     id: 10,
                     name: "RPubs",
                     icon: "fas fa-code",
-                    link: "https://rpubs.com"
+                    link: "https://rpubs.com/NgurahSentana"
                 }
             ],
             photos: [
