@@ -2470,43 +2470,115 @@
             certificates: [
                 {
                     id: 1,
-                    title: "Google Data Analytics",
-                    description: "Professional data analytics certification from Google.",
-                    issuer: "Google via Coursera",
-                    date: "December 2022",
-                    link: "https://coursera.org/certificates/data-analytics",
+                    title: "IBM MACHINE LEARNING",
+                    description: "Machine learning certification from IBM.",
+                    issuer: "IBM",
+                    date: "2024",
+                    link: "",
                     image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80"
                 },
                 {
                     id: 2,
-                    title: "AWS Machine Learning",
-                    description: "AWS specialist certification in machine learning.",
-                    issuer: "Amazon Web Services",
-                    date: "October 2022",
-                    link: "https://aws.amazon.com/certification/",
-                    image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80"
+                    title: "IBM DATA SCIENCE",
+                    description: "Data science certification from IBM.",
+                    issuer: "IBM",
+                    date: "2024",
+                    link: "",
+                    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80"
+                },
+                {
+                    id: 3,
+                    title: "R FUNDAMENTAL",
+                    description: "Fundamental R programming certification.",
+                    issuer: "DQLab",
+                    date: "2022",
+                    link: "",
+                    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80"
+                },
+                {
+                    id: 4,
+                    title: "SQL FUNDAMENTAL",
+                    description: "Fundamental SQL database certification.",
+                    issuer: "DQLab",
+                    date: "2022",
+                    link: "",
+                    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80"
                 }
             ],
             awards: [
                 {
                     id: 1,
-                    title: "Best Data Science Project",
-                    organization: "Data Science Association",
-                    date: "2023",
-                    description: "Awarded for innovative use of machine learning in financial market prediction.",
+                    title: "BEST PAPER",
+                    organization: "IJOP",
+                    date: "2025",
+                    description: "Awarded for outstanding research paper.",
                     image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80",
-                    details: "Recognized for developing a novel LSTM-based stock prediction model that achieved 87% accuracy in live trading simulations."
+                    details: "Recognized for excellence in academic writing and research contribution."
                 },
                 {
                     id: 2,
-                    title: "Speaker at AI Conference",
-                    organization: "AI Summit 2023",
-                    date: "2023",
-                    description: "Invited speaker on 'Ethical AI Implementation in Healthcare'.",
+                    title: "BEST PRESENTER",
+                    organization: "Konstelasi",
+                    date: "2025",
+                    description: "Awarded for exceptional presentation skills.",
                     image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80",
-                    details: "Delivered keynote speech on ethical considerations in healthcare AI to an audience of 500+ professionals."
+                    details: "Recognized for outstanding presentation delivery and communication skills."
+                },
+                {
+                    id: 3,
+                    title: "PRESENTER ICDSOS STIS",
+                    organization: "STIS",
+                    date: "2025",
+                    description: "Presenter at ICDSOS STIS conference.",
+                    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80",
+                    details: "Selected as presenter at ICDSOS STIS academic conference."
+                },
+                {
+                    id: 4,
+                    title: "2ND MILLENIAL ESSAY COMPETITION",
+                    organization: "FKIP Universitas Lampung",
+                    date: "2022",
+                    description: "Achieved 2nd place in essay competition.",
+                    image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80",
+                    details: "Awarded 2nd place in national essay competition."
+                },
+                {
+                    id: 5,
+                    title: "2ND MILLENIAL ESSAY COMPETITION",
+                    organization: "FKIP Universitas Lampung",
+                    date: "2021",
+                    description: "Achieved 2nd place in essay competition.",
+                    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80",
+                    details: "Awarded 2nd place in national essay competition."
+                },
+                {
+                    id: 6,
+                    title: "3RD LEMM ESSAY COMPETITION",
+                    organization: "FMIPA, Universitas Negeri Yogyakarta",
+                    date: "2021",
+                    description: "Achieved 3rd place in essay competition.",
+                    image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80",
+                    details: "Awarded 3rd place in LEMM essay competition."
+                },
+                {
+                    id: 7,
+                    title: "TOP 5 ESSAY WRITING MATHLICIOUS",
+                    organization: "Institut Agama Islam Negeri Kudus",
+                    date: "2021",
+                    description: "Top 5 finalist in essay competition.",
+                    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80",
+                    details: "Selected as top 5 finalist in Mathlicious essay competition."
+                },
+                {
+                    id: 8,
+                    title: "3RD GEMASTE ESSAY COMPETITION",
+                    organization: "Universitas Negeri Semarang",
+                    date: "2021",
+                    description: "Achieved 3rd place in essay competition.",
+                    image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80",
+                    details: "Awarded 3rd place in GEMASTE essay competition."
                 }
-            ],
+            ]
             collaborations: [
                 {
                     id: 1,
@@ -2522,39 +2594,51 @@
                 },
                 {
                     id: 3,
-                    name: "IBM",
-                    icon: "fab fa-ibm",
-                    link: "https://www.ibm.com"
-                },
-                {
-                    id: 4,
-                    name: "Amazon",
-                    icon: "fab fa-aws",
-                    link: "https://aws.amazon.com"
-                },
-                {
-                    id: 5,
                     name: "GitHub",
                     icon: "fab fa-github",
                     link: "https://github.com"
                 },
                 {
-                    id: 6,
+                    id: 4,
                     name: "Python",
                     icon: "fab fa-python",
                     link: "https://www.python.org"
                 },
                 {
-                    id: 7,
-                    name: "TensorFlow",
-                    icon: "fas fa-brain",
-                    link: "https://www.tensorflow.org"
+                    id: 5,
+                    name: "R Shiny",
+                    icon: "fas fa-chart-line",
+                    link: "https://shiny.rstudio.com"
                 },
                 {
-                    id: 8,
+                    id: 6,
+                    name: "SAS",
+                    icon: "fas fa-database",
+                    link: "https://www.sas.com"
+                },
+                {
+                    id: 7,
                     name: "ResearchGate",
                     icon: "fab fa-researchgate",
                     link: "https://www.researchgate.net"
+                },
+                {
+                    id: 8,
+                    name: "ORCID",
+                    icon: "fas fa-id-card",
+                    link: "https://orcid.org"
+                },
+                {
+                    id: 9,
+                    name: "Google Scholar",
+                    icon: "fas fa-graduation-cap",
+                    link: "https://scholar.google.com"
+                },
+                {
+                    id: 10,
+                    name: "RPubs",
+                    icon: "fas fa-code",
+                    link: "https://rpubs.com"
                 }
             ],
             photos: [
