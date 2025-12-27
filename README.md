@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/795689f3-2cf5-4152-9b9d-2ee112e98dbd" /><img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/1c81d47e-2a08-4e88-9cf0-5d3f5d91ac9d" /><img width="850" height="560" alt="image" src="https://github.com/user-attachments/assets/843b1cce-6232-494a-9da2-186f8e24f5af" /><img width="850" height="560" alt="image" src="https://github.com/user-attachments/assets/e750d633-0e12-45cc-89a8-f3b396f0bdc8" /><!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
@@ -2575,7 +2575,7 @@
                   role: "Chairman",
                   period: "2025",
                   description: "Postgraduate Statistics Student Association.",
-                  image: "https://images.unsplash.com/photo-1523580494863-6f3031224c94?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80", // PERBAIKAN: Menambahkan gambar
+                  image: "https://raw.githubusercontent.com/ngurahsentana24/Archive/main/photos/himpro.jpeg", // PERBAIKAN: Menambahkan gambar
                   activities: [
                     "Led academic, organizational, and community engagement programs",
                     "Coordinated events and fostered collaboration among postgraduate students",
@@ -2592,7 +2592,7 @@
                   role: "Head of the Social and Community Service Division",
                   period: "2025",
                   description: "Social and community service division.",
-                  image: "https://images.unsplash.com/photo-1517048676732-d65bc937f952?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80", // PERBAIKAN: Menambahkan gambar
+                  image: "https://raw.githubusercontent.com/ngurahsentana24/Archive/main/photos/sosmas2.jpeg", // PERBAIKAN: Menambahkan gambar
                   activities: [
                     "Coordinated social initiatives and managed community engagement programs",
                     "Led teams in delivering impactful projects",
@@ -2609,7 +2609,7 @@
                   role: "Chairman",
                   period: "2022",
                   description: "Student Representative Council at Udayana University.",
-                  image: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80", // PERBAIKAN: Menambahkan gambar
+                  image: "https://baliprawara.com/wp-content/uploads/2022/10/171842B3-E2E6-4FAD-9672-6F165238C312-850x560.jpeg", // PERBAIKAN: Menambahkan gambar
                   activities: [
                     "Led the legislative body and managed student aspirations",
                     "Oversaw organizational governance",
@@ -2623,7 +2623,7 @@
                   role: "Commission III for Aspiration and Advocacy",
                   period: "2021",
                   description: "Student Representative Council at Udayana University.",
-                  image: "https://images.unsplash.com/photo-1577896851231-70ef18881754?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80", // PERBAIKAN: Menambahkan gambar
+                  image: "https://baliprawara.com/wp-content/uploads/2022/10/171842B3-E2E6-4FAD-9672-6F165238C312-850x560.jpeg", // PERBAIKAN: Menambahkan gambar
                   activities: [
                     "Contributed to student representation and policy discussions",
                     "Served as Chair of the Temu Rektor event",
@@ -2651,7 +2651,7 @@
                   role: "Vice Chairman",
                   period: "2020",
                   description: "Student organization in creative media.",
-                  image: "https://images.unsplash.com/photo-1545235617-9465d2a55698?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80", // PERBAIKAN: Menambahkan gambar
+                  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG7wDsuEVuTI0wQxfzSG3Qo1Dpfz5m7-2DqA&s", // PERBAIKAN: Menambahkan gambar
                   activities: [
                     "Led activities and enhanced members' creative skills",
                     "Managed visual storytelling projects",
@@ -2668,7 +2668,7 @@
                     issuer: "IBM",
                     date: "2024",
                     link: "",
-                    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80"
+                    image: "https://d15cw65ipctsrr.cloudfront.net/78/0b8c921b6346f69278f39ba6ca8128/Professional-Certificate---IBM-Machine-Language.png"
                 },
                 {
                     id: 2,
@@ -2677,7 +2677,7 @@
                     issuer: "IBM",
                     date: "2024",
                     link: "",
-                    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80"
+                    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSocwcQwzVT_btzQ37474FA0otPE97lOe3yjA&s"
                 },
                 {
                     id: 3,
@@ -2686,7 +2686,7 @@
                     issuer: "DQLab",
                     date: "2022",
                     link: "",
-                    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80"
+                    image: "https://rfortherestofus.com/img/containers/social_images/fundamentals.png/a2c2830e29ebadf4ee20839248951d68.png"
                 },
                 {
                     id: 4,
@@ -2695,7 +2695,7 @@
                     issuer: "DQLab",
                     date: "2022",
                     link: "",
-                    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80"
+                    image: "https://images.aloa.co/posts/explained-sql-database-fundamentals-for-beginners/6662d9221c88ab88133bad62_Basic%20SQL%20Commands.webp"
                 }
             ],
             awards: [
@@ -2705,7 +2705,7 @@
                     organization: "IJOP",
                     date: "2025",
                     description: "Awarded for outstanding research paper.",
-                    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80",
+                    image: "https://media.licdn.com/dms/image/v2/D5622AQHqkhjgceY-0w/feedshare-shrink_2048_1536/B56ZpjzhdtHQAw-/0/1762611049492?e=1768435200&v=beta&t=fYElOMD-o6rkYcmMn3QVkyDn7w6jGFqfpC4lP3W7Wgg",
                     details: "Recognized for excellence in academic writing and research contribution."
                 },
                 {
@@ -2714,7 +2714,7 @@
                     organization: "Konstelasi",
                     date: "2025",
                     description: "Awarded for exceptional presentation skills.",
-                    image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80",
+                    image: "https://media.licdn.com/dms/image/v2/D5622AQHh_iK-JRCACQ/feedshare-shrink_800/B56ZZyEfDdHsAo-/0/1745670509334?e=2147483647&v=beta&t=gmj3L5eXEMmH48hN-hd6KqbuW9jSuMuE02l9tREfeDA",
                     details: "Recognized for outstanding presentation delivery and communication skills."
                 },
                 {
